@@ -31,7 +31,6 @@ def text_knowledge_enrichment(
 	'''
 	triplets = yan_dbpedia_query.find_triplets_of_entities(
 		query_wikipage_ids,
-		skip_rdf_schema_relation = False,
 		)
 	'''
 	build the triplets between the sentence and the linked entities
