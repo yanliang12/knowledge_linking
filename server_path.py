@@ -7,14 +7,14 @@ from flask import *
 
 import yan_text_kg_enrichment
 
-ns = Namespace('yan_text_kg_enrichment', description='')
+ns = Namespace('text_kg_enrichment', description='')
 args = argsparser.prepare_args()
 
 parser = ns.parser()
 parser.add_argument('text', type=str, location='json')
 
 req_fields = {'text': fields.String(\
-	example = u"this is an input text")\
+	example = u"I graduate from UC Berkeley, and worked for Google for a while. Later I am an engineer of Apple. Now I live in San Jose.")\
 	}
 yan_api_req = ns.model('yan', req_fields)
 
@@ -23,7 +23,7 @@ rsp_fields = {\
 	'running_time':fields.Float\
 	}
 
-yan_api_rsp = ns.model('yan_text_kg_enrichment', rsp_fields)
+yan_api_rsp = ns.model('text_kg_enrichment', rsp_fields)
 
 @ns.route('')
 class yan_api(Resource):
