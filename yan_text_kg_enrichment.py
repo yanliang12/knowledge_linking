@@ -1,4 +1,5 @@
 ###########yan_text_kg_enrichment.py############
+import re
 import hashlib
 import yan_neo4j
 import yan_dbpedia_query
@@ -80,8 +81,15 @@ def text_knowledge_enrichment(
 	'''
 	ingest to neo4j
 	'''
+	for t in neo4j_triplets:
+		t['subject_name'] = re.sub(r'[^A-z\d]+', r' ', t['subject_name'])
+		t['object_name'] = re.sub(r'[^A-z\d]+', r' ', t['object_name'])
+		t['subject_type'] = re.sub(r'[^A-z\d]+', r'_', t['subject_type'])
+		t['object_type'] = re.sub(r'[^A-z\d]+', r'_', t['object_type'])
+		t['relation'] = re.sub(r'[^A-z\d]+', r'_', t['relation'])
 	yan_neo4j.ingest_knowledge_triplets_to_neo4j(
 		neo4j_triplets, 
 		neo4j_session)
+	return neo4j_triplets
 
 ###########yan_text_kg_enrichment.py############
