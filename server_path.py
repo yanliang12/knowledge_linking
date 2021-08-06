@@ -14,7 +14,7 @@ parser = ns.parser()
 parser.add_argument('text', type=str, location='json')
 
 req_fields = {'text': fields.String(\
-	example = u"I graduate from UC Berkeley, and worked for Google for a while. Later I am an engineer of Apple. Now I live in San Jose.")\
+	example = u"I graduated from UC Berkeley, and worked for Google for a while. Later I am an engineer at Apple. Now I live in San Jose.")\
 	}
 yan_api_req = ns.model('yan', req_fields)
 
