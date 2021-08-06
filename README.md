@@ -1,6 +1,8 @@
 # yan_text_kg_enrichment
 
 ```bash
+docker pull yanliang12/yan_text_kg_enrichment:1.0.2
+
 docker run -it ^
 -p 0.0.0.0:2974:2974 ^
 -p 0.0.0.0:8080:8080 ^
