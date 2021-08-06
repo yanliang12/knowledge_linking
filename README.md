@@ -10,3 +10,8 @@ docker run -it ^
 -p 0.0.0.0:3097:3097 ^
 yanliang12/yan_text_kg_enrichment:1.0.2
 ```
+
+http://localhost:2974
+
+http://localhost:5974
+
