@@ -7,7 +7,7 @@ from flask import *
 
 import yan_text_kg_enrichment
 
-ns = Namespace('text_kg_enrichment', description='')
+ns = Namespace('knowledge_graph', description='')
 args = argsparser.prepare_args()
 
 parser = ns.parser()
@@ -23,9 +23,9 @@ rsp_fields = {\
 	'running_time':fields.Float\
 	}
 
-yan_api_rsp = ns.model('text_kg_enrichment', rsp_fields)
+yan_api_rsp = ns.model('knowledge_graph', rsp_fields)
 
-@ns.route('')
+@ns.route('/knowledge_linking')
 class yan_api(Resource):
 	def __init__(self, *args, **kwargs):
 		super(yan_api, self).__init__(*args, **kwargs)
