@@ -1,7 +1,7 @@
 # yan_text_kg_enrichment
 
 ```bash
-docker pull yanliang12/yan_text_kg_enrichment:1.0.2
+docker pull yanliang12/yan_knowledge_linking:1.0.2
 
 docker run -it ^
 -p 0.0.0.0:2974:2974 ^
@@ -10,7 +10,7 @@ docker run -it ^
 -p 0.0.0.0:5701:5701 ^
 -p 0.0.0.0:5974:5974 ^
 -p 0.0.0.0:3097:3097 ^
-yanliang12/yan_text_kg_enrichment:1.0.2
+yanliang12/yan_knowledge_linking:1.0.2
 ```
 
 
