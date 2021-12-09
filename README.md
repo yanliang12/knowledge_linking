@@ -1,4 +1,4 @@
-# yan_text_kg_enrichment
+# yan_knowledge_linking
 
 ```bash
 docker pull yanliang12/yan_knowledge_linking:1.0.2
@@ -26,4 +26,5 @@ input text:
 
 ### output http://localhost:5974
 
-WeChat%20Screenshot_20211209224203.png
+
+<img src="WeChat%20Screenshot_20211209224203.png" width="500">
