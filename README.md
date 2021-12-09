@@ -1,8 +1,14 @@
 # yan_knowledge_linking
 
+### pull the docker image
+
 ```bash
 docker pull yanliang12/yan_knowledge_linking:1.0.2
+```
 
+### run the docker 
+
+```bash
 docker run -it ^
 -p 0.0.0.0:2974:2974 ^
 -p 0.0.0.0:8080:8080 ^
