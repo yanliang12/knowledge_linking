@@ -22,6 +22,8 @@ yanliang12/yan_knowledge_linking:1.0.2
 
 ### input http://localhost:2974
 
+<img src="WeChat%20Screenshot_20211209224431.png" width="500">
+
 input text:
 
 ```
