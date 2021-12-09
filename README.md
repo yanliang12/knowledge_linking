@@ -16,5 +16,13 @@ yanliang12/yan_knowledge_linking:1.0.2
 
 input http://localhost:2974
 
+input text:
+
+```
+{
+  "text": "I visited the Louvre Abu Dhabi today and Zayed National Museum today."
+}
+```
+
 output http://localhost:5974
 
