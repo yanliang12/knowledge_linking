@@ -30,7 +30,7 @@ input text:
 
 ```
 {
-  "text": "I visited the Louvre Abu Dhabi today and Zayed National Museum today."
+  "text": "I visited the Louvre Abu Dhabi and Zayed National Museum today."
 }
 ```
 
