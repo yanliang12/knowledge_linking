@@ -13,8 +13,9 @@ args = argsparser.prepare_args()
 parser = ns.parser()
 parser.add_argument('text', type=str, location='json')
 
-req_fields = {'text': fields.String(\
-	example = u"I visited the Louvre Abu Dhabi today and Zayed National Museum today.")\
+req_fields = {
+	'text': fields.String(\
+	example = u"I visited the Louvre Abu Dhabi and Zayed National Museum today.")\
 	}
 yan_api_req = ns.model('yan', req_fields)
 
