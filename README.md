@@ -1,4 +1,4 @@
-# yan_knowledge_linking
+# Yan's Knowledge Linking Engine
 
 ### pull the docker image
 
