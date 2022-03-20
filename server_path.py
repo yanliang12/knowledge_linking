@@ -5,7 +5,7 @@ import argsparser
 from flask_restplus import *
 from flask import *
 
-import yan_text_kg_enrichment
+import text_kg_enrichment
 
 ns = Namespace('knowledge_graph', description='')
 args = argsparser.prepare_args()
@@ -37,7 +37,7 @@ class yan_api(Resource):
 		output = {}
 		try:			
 			args = parser.parse_args()		
-			yan_text_kg_enrichment.text_knowledge_enrichment(
+			text_kg_enrichment.text_knowledge_enrichment(
 				args['text'],
 				)
 			output['status'] = 'success'
