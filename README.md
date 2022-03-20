@@ -1,4 +1,4 @@
-# Jingyan's Knowledge Linking Engine
+# Knowledge Linking Engine
 
 ### pull the docker image
 
