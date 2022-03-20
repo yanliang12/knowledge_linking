@@ -28,7 +28,7 @@ jingyanwang1/knowledge_linking:1.0.2
 
 ### input 
 
-url: http://localhost:2974
+go to url: http://localhost:2974 to iput your own text
 
 <img src="input.png" width="500">
 
@@ -42,7 +42,7 @@ input text:
 
 ### output 
 
-url: http://localhost:5974
+go to the url: http://localhost:5974 to see the results
 
 <img src="WeChat%20Screenshot_20211209224203.png" width="500">
 
