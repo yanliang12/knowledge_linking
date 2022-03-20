@@ -34,7 +34,7 @@ RUN pip3 install flask==1.1.2
 RUN pip3 install flask_restplus==0.13.0
 USER yan
 
-RUN echo "51615151510"
+RUN echo "sdg5s1g515sd5gs15g5"
 
 WORKDIR /yan/
 RUN git clone https://github.com/yanliang12/yan_dbpedia_query.git
@@ -57,9 +57,9 @@ RUN mv yan_rest_api/* ./
 RUN rm -r yan_rest_api
 
 WORKDIR /yan/
-RUN git clone https://github.com/yanliang12/yan_text_kg_enrichment.git
-RUN mv yan_text_kg_enrichment/* ./
-RUN rm -r yan_text_kg_enrichment
+RUN git clone https://github.com/jingyanwang/knowledge_linking.git
+RUN mv knowledge_linking/* ./
+RUN rm -r knowledge_linking
 
 CMD python3 app_path.py --port 2974
 ###########Dockerfile############
