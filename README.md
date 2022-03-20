@@ -28,7 +28,7 @@ jingyanwang1/knowledge_linking:1.0.2
 
 ### input 
 
-go to url: http://localhost:2974 to iput your own text
+go to url: http://localhost:2974 to input your own text
 
 <img src="input.png" width="500">
 
