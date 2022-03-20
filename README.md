@@ -42,4 +42,4 @@ url: http://localhost:5974
 
 ### contact
 
-If you want to see a demo from me, or you have a data scientist job opening in UAE, please contact me at yanliang2345@outlook.com
+If you want to see a demo from me, please contact me at jimjywang@gmail.com
