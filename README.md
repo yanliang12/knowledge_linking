@@ -1,5 +1,10 @@
 # Knowledge Linking Engine
 
+Linking the text to the IDs of entities from a knowledge graph. It not only produces the background knowledge of the directly mentioned entities in the text, but also the entities not mentioned in the text but closely linked to the content.
+
+Input a free text, the engine will identifies the entities from the text, together with the related relations and entities from the DBPedia knowledge graph, and show them in Noe4j. 
+
+
 ### pull the docker image
 
 ```bash
