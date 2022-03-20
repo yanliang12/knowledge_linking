@@ -1,4 +1,4 @@
-# Yan's Knowledge Linking Engine
+# Jingyan's Knowledge Linking Engine
 
 ### pull the docker image
 
