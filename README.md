@@ -9,7 +9,7 @@ Below is how to use it:
 ### pull the docker image
 
 ```bash
-docker pull jingyanwang1/knowledge_linking:1.0.2
+docker pull jingyanwang1/knowledge_linking:1.0.3
 ```
 
 ### run the docker 
@@ -22,7 +22,7 @@ docker run -it ^
 -p 0.0.0.0:5701:5701 ^
 -p 0.0.0.0:5974:5974 ^
 -p 0.0.0.0:3097:3097 ^
-jingyanwang1/knowledge_linking:1.0.2
+jingyanwang1/knowledge_linking:1.0.3
 ```
 
 
