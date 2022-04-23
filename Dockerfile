@@ -29,37 +29,22 @@ RUN tar -xf 'artifact.php?name=neo4j-community-3.5.12-unix.tar.gz'
 ## install rest api
 
 USER root
-RUN pip3 install Werkzeug==0.16.1
-RUN pip3 install flask==1.1.2
+
+RUN pip3 install Flask==1.1.1
 RUN pip3 install flask_restplus==0.13.0
+RUN pip3 install Werkzeug==0.15.5
+RUN pip3 install itsdangerous==1.1.0
+
+RUN pip3 install jinja2==2.10.1
+RUN pip3 install MarkupSafe==1.1.1
+
 USER yan
 
-RUN echo "sdg5s1g515sd5gs15g5"
+RUN echo "ds2g1s2gs2"
 
 WORKDIR /yan/
-RUN git clone https://github.com/yanliang12/yan_dbpedia_query.git
-RUN mv yan_dbpedia_query/* ./
-RUN rm -r yan_dbpedia_query
-
-WORKDIR /yan/
-RUN git clone https://github.com/jingyanwang/neo4j_docker.git
-RUN mv neo4j_docker/* ./
-RUN rm -r neo4j_docker
-
-WORKDIR /yan/
-RUN git clone https://github.com/yanliang12/yan_entity_linking.git
-RUN mv yan_entity_linking/* ./
-RUN rm -r yan_entity_linking
-
-WORKDIR /yan/
-RUN git clone https://github.com/yanliang12/yan_rest_api.git
-RUN mv yan_rest_api/* ./
-RUN rm -r yan_rest_api
-
-WORKDIR /yan/
-RUN git clone https://github.com/jingyanwang/knowledge_linking.git
-RUN mv knowledge_linking/* ./
-RUN rm -r knowledge_linking
+ADD *.py /yan/
+ADD *.conf /yan/
 
 CMD python3 app_path.py --port 2974
 ###########Dockerfile############
