@@ -48,4 +48,4 @@ go to the url: http://localhost:5974 to see the results
 
 ### contact
 
-If you want to see a demo from me, please contact me at jimjywang@gmail.com
+If you want to see a demo from me, or you have your own documents to be enriched by the knowledge graph, please contact me at jimjywang@gmail.com
