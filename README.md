@@ -53,9 +53,9 @@ If you want to see a demo from me, or you have your own documents to be enriched
 ### youtube demo link
 
 <object width="425" height="350">
-  <param name="movie" value="https://youtu.be/jCqvBPSn4rA " />
+  <param name="movie" value="https://youtu.be/jCqvBPSn4rA" />
   <param name="wmode" value="transparent" />
-  <embed src="https://youtu.be/jCqvBPSn4rA "
+  <embed src="https://youtu.be/jCqvBPSn4rA"
          type="application/x-shockwave-flash"
          wmode="transparent" width="425" height="350" />
 </object>
