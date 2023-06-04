@@ -46,6 +46,11 @@ go to the url: http://localhost:5974 to see the results
 
 <img src="WeChat%20Screenshot_20211209224203.png" width="500">
 
+
+### backend database
+
+the knowledge graph triplets are in a ES instance, available at http://localhost:9267/dbpedia_triplet/_search?pretty=true
+
 ### contact
 
 If you want to see a demo from me, or you have your own documents to be enriched by the knowledge graph, please contact me at jimjywang@gmail.com
